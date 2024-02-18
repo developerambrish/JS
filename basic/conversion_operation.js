@@ -17,11 +17,11 @@ undefined  = Nan
 
 let score ="sa121"
 let convertintostring = String (score)
-console.log(typeof convertintostring);
-console.log(convertintostring);
+//console.log(typeof convertintostring);
+//console.log(convertintostring);
 
 /* 
-if we are convertiing into string
+if we are converting into string
 
 12 = converted
 null  = converted & value is null
@@ -30,3 +30,18 @@ true = converted value is true
 asd = error
 "asaas12" succeessfully
 */
+
+let any = "s"
+let convertintoboolean = Boolean(any)
+console.log(convertintoboolean);
+console.log(typeof convertintoboolean);
+
+
+/*
+if we are converting into boolean
+1 = true ;0 = false
+null ,undefined = false
+"" = false
+"sds " = true
+*/
+
