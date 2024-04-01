@@ -33,8 +33,8 @@ asd = error
 
 let any = "s"
 let convertintoboolean = Boolean(any)
-console.log(convertintoboolean);
-console.log(typeof convertintoboolean);
+// console.log(convertintoboolean);
+// console.log(typeof convertintoboolean);
 
 
 /*
@@ -44,4 +44,29 @@ null ,undefined = false
 "" = false
 "sds " = true
 */
+
+/***************operation******************************* */
+var num = 5
+var negnum = -num
+// console.log(negnum);
+
+// console.log(2+2);   4
+// console.log(2-2);   0  
+// console.log(2*2);    4
+// console.log(2**3);//perform like power  2*2*2 =8
+// console.log(2/2);    1
+// console.log(132%2);  0
+
+
+let  str1 = "Ak"
+let str2 = " Is Here"
+let str3 = str1+str2
+// console.log(str3);
+
+console.log(typeof("2" + 1));   //treate like string simple 2 and 1 is print as it is         21     and return as string
+
+console.log(typeof(2 + "1"));   //treate like string here also     21   and return as string 
+console.log(typeof("2" + 1 + 1 +2));  //treate like string   because of starting  is string so all works like  string   and return as string
+console.log(typeof(2 + 1 +34 + "2"));  //first two are added and last  was print as it is    and return as string
+
 
